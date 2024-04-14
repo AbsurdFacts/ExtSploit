@@ -1,2 +1,2 @@
 # ExtSploit
-NOT a config for vape v4
+This is a new hacking client for Roblox Bedwars. Its also **not** a Vape V4 config.
