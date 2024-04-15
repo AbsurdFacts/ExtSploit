@@ -1,5 +1,4 @@
--- ExtSploit 1.0 (PUBLIC)
-
+-- ExtSploit v1.1
 -- Instances:
 
 local ExtScreenGui = Instance.new("ScreenGui")
@@ -103,7 +102,7 @@ Logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 Logo.BackgroundTransparency = 1.000
 Logo.BorderColor3 = Color3.fromRGB(0, 0, 0)
 Logo.BorderSizePixel = 0
-Logo.Position = UDim2.new(0.0091496231, 0, 0.01925545, 0)
+Logo.Position = UDim2.new(0.809472561, 0, -4.89691576e-09, 0)
 Logo.Size = UDim2.new(0.190527454, 0, 0.127086014, 0)
 Logo.Font = Enum.Font.FredokaOne
 Logo.Text = "ExtSploit"
@@ -119,7 +118,7 @@ HackFrame.BackgroundTransparency = 1.000
 HackFrame.BorderColor3 = Color3.fromRGB(0, 0, 0)
 HackFrame.BorderSizePixel = 0
 HackFrame.Position = UDim2.new(0.125941873, 0, 0, 0)
-HackFrame.Size = UDim2.new(0, 1389, 0, 689)
+HackFrame.Size = UDim2.new(0.747578025, 0, 0.884467244, 0)
 HackFrame.Visible = false
 
 WorldFrame.Name = "WorldFrame"
@@ -128,7 +127,7 @@ WorldFrame.BackgroundColor3 = Color3.fromRGB(191, 0, 179)
 WorldFrame.BorderColor3 = Color3.fromRGB(255, 0, 229)
 WorldFrame.BorderSizePixel = 0
 WorldFrame.Position = UDim2.new(0.707829237, 0, 0.031013744, 0)
-WorldFrame.Size = UDim2.new(0.129709363, 0, 0.496790767, 0)
+WorldFrame.Size = UDim2.new(0.129709363, 0, 0.496790797, 0)
 
 UICorner_2.Parent = WorldFrame
 
@@ -287,7 +286,7 @@ ExtButtonOpemHacks.BackgroundColor3 = Color3.fromRGB(255, 0, 235)
 ExtButtonOpemHacks.BorderColor3 = Color3.fromRGB(0, 0, 0)
 ExtButtonOpemHacks.BorderSizePixel = 0
 ExtButtonOpemHacks.Position = UDim2.new(0.858449936, 0, 0.441591769, 0)
-ExtButtonOpemHacks.Size = UDim2.new(0, 90, 0, 90)
+ExtButtonOpemHacks.Size = UDim2.new(0.0484391823, 0, 0.115532734, 0)
 ExtButtonOpemHacks.Font = Enum.Font.FredokaOne
 ExtButtonOpemHacks.Text = "Ext"
 ExtButtonOpemHacks.TextColor3 = Color3.fromRGB(0, 0, 0)
@@ -297,7 +296,7 @@ UICorner_11.Parent = ExtButtonOpemHacks
 
 -- Scripts:
 
-local function AVHXMG_fake_script() -- NotificationFrame.NotificationScript 
+local function UPVK_fake_script() -- NotificationFrame.NotificationScript 
 	local script = Instance.new('Script', NotificationFrame)
 
 	local NofificationBar = script.Parent
@@ -312,8 +311,8 @@ local function AVHXMG_fake_script() -- NotificationFrame.NotificationScript
 	
 	NofificationBar.Visible = false
 end
-coroutine.wrap(AVHXMG_fake_script)()
-local function TIAFKXQ_fake_script() -- AnimeSkyBox.LocalScript 
+coroutine.wrap(UPVK_fake_script)()
+local function WMJYS_fake_script() -- AnimeSkyBox.LocalScript 
 	local script = Instance.new('LocalScript', AnimeSkyBox)
 
 	local button = script.Parent
@@ -344,8 +343,8 @@ local function TIAFKXQ_fake_script() -- AnimeSkyBox.LocalScript
 	button.Activated:Connect(changeSkyTexture)print("Hello world!")
 	
 end
-coroutine.wrap(TIAFKXQ_fake_script)()
-local function TCPGRP_fake_script() -- ChatSpammerButton.LocalScript 
+coroutine.wrap(WMJYS_fake_script)()
+local function EFSEE_fake_script() -- ChatSpammerButton.LocalScript 
 	local script = Instance.new('LocalScript', ChatSpammerButton)
 
 	local button = script.Parent
@@ -368,8 +367,8 @@ local function TCPGRP_fake_script() -- ChatSpammerButton.LocalScript
 	
 	button.Activated:Connect(onButtonClicked)
 end
-coroutine.wrap(TCPGRP_fake_script)()
-local function UQEQMI_fake_script() -- SwordTexturePackButton.LocalScript 
+coroutine.wrap(EFSEE_fake_script)()
+local function VQMJ_fake_script() -- SwordTexturePackButton.LocalScript 
 	local script = Instance.new('LocalScript', SwordTexturePackButton)
 
 	workspace.CurrentCamera.Viewmodel.ChildAdded:Connect(function(x)
@@ -382,8 +381,8 @@ local function UQEQMI_fake_script() -- SwordTexturePackButton.LocalScript
 		end
 	end)
 end
-coroutine.wrap(UQEQMI_fake_script)()
-local function FXCBAD_fake_script() -- SpeedButton.LocalScript 
+coroutine.wrap(VQMJ_fake_script)()
+local function OFIAD_fake_script() -- SpeedButton.LocalScript 
 	local script = Instance.new('LocalScript', SpeedButton)
 
 	local button = script.Parent
@@ -394,8 +393,8 @@ local function FXCBAD_fake_script() -- SpeedButton.LocalScript
 		hum.WalkSpeed = 23
 	end)
 end
-coroutine.wrap(FXCBAD_fake_script)()
-local function NRCZ_fake_script() -- SitButton.LocalScript 
+coroutine.wrap(OFIAD_fake_script)()
+local function YGKUBR_fake_script() -- SitButton.LocalScript 
 	local script = Instance.new('LocalScript', SitButton)
 
 	local button = script.Parent
@@ -406,8 +405,8 @@ local function NRCZ_fake_script() -- SitButton.LocalScript
 		hum.Sit = true
 	end)
 end
-coroutine.wrap(NRCZ_fake_script)()
-local function KFAFMAE_fake_script() -- HighJumpButton.LocalScript 
+coroutine.wrap(YGKUBR_fake_script)()
+local function QJZE_fake_script() -- HighJumpButton.LocalScript 
 	local script = Instance.new('LocalScript', HighJumpButton)
 
 	local button = script.Parent
@@ -420,8 +419,8 @@ local function KFAFMAE_fake_script() -- HighJumpButton.LocalScript
 	
 	button.MouseButton1Down:Connect(Jump)
 end
-coroutine.wrap(KFAFMAE_fake_script)()
-local function QADYP_fake_script() -- ExtButtonOpemHacks.LocalScript 
+coroutine.wrap(QJZE_fake_script)()
+local function VAXA_fake_script() -- ExtButtonOpemHacks.LocalScript 
 	local script = Instance.new('LocalScript', ExtButtonOpemHacks)
 
 	local button = script.Parent -- Replace with the path to your button
@@ -439,4 +438,4 @@ local function QADYP_fake_script() -- ExtButtonOpemHacks.LocalScript
 		end
 	end)
 end
-coroutine.wrap(QADYP_fake_script)()
+coroutine.wrap(VAXA_fake_script)()
